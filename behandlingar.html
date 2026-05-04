@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Behandlingar & Priser | Salong Boman</title>
+  <meta name="description" content="Se behandlingar och priser hos Salong Boman i Karlskoga." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="logo">Salong Boman</a>
+
+  <button class="menu-toggle" id="menuToggle" aria-label="Öppna meny" aria-expanded="false">
+    ☰
+  </button>
+
+  <nav class="nav" id="nav">
+    <a href="index.html">Start</a>
+    <a href="behandlingar.html" class="active">Behandlingar & Priser</a>
+    <a href="infor-ditt-besok.html">Inför ditt besök</a>
+  </nav>
+</header>
+
+<main class="page treatments-page">
+
+  <section class="page-intro">
+    <p class="eyebrow">Prislista</p>
+    <h1>Behandlingar & Priser</h1>
+    <p>Filtrera bland våra tjänster och läs mer om varje behandling. Är du osäker? Ring oss så hjälper vi dig!</p>
+  </section>
+
+  <div class="filter-buttons" id="treatmentFilters">
+    <button class="filter-btn active" data-filter="all">Alla tjänster</button>
+    <button class="filter-btn" data-filter="klippning">Klippning</button>
+    <button class="filter-btn" data-filter="folieslingor">Folieslingor</button>
+    <button class="filter-btn" data-filter="fargning">Färgning</button>
+    <button class="filter-btn" data-filter="bryn-fransar">Ögonbryn & Fransar</button>
+    <button class="filter-btn" data-filter="styling-kurer">Styling & Kurer</button>
+    <button class="filter-btn" data-filter="permanent">Permanent</button>
+    <button class="filter-btn" data-filter="trainee">Trainee-Frisörer</button>
+    <button class="filter-btn" data-filter="kurbehandlingar">Kurbehandlingar</button>
+    <button class="filter-btn" data-filter="avfarg">Avfärg</button>
+  </div>
+
+  <section class="category" data-category="klippning">
+    <h2>Klippning <span class="category-count"></span></h2>
+
+    <article class="treatment">
+      <div>
+        <h3>Klippning - Standard</h3>
+        <span class="treatment-meta">45 min</span>
+        <p class="treatment-description collapsed">Obs vid bokning av tjockt hår, boka klippning-ny frisyr. En klippning av befintlig frisyr. Här ingår det en enklare konsultation av håret och dina önskemål, hårtvätt samt enklare typ av styling.</p>
+      </div>
+      <strong class="treatment-price">Pris 650 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div>
+        <h3>Klippning - Standard (Trainee)</h3>
+        <span class="treatment-meta">60 min</span>
+        <p class="treatment-description collapsed">En klippning av befintlig frisyr. Här ingår det en enklare konsultation av håret och dina önskemål, hårtvätt samt enklare typ av styling.</p>
+      </div>
+      <strong class="treatment-price">Pris 395 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div>
+        
+        <h3>Klippning - Ny frisyr / Mycket hår</h3>
+        <span class="treatment-meta">75 min</span>
+        <p class="treatment-description collapsed">Obs vid bokning av tjockt hår, boka denna behandling. Vill du göra något helt nytt med ditt hår? Behöver du tips och råd när det gäller en ny frisyr eller styling av ditt hår? Eller var det kanske alldeles för länge sedan du besökte salongen så att frisyren är omöjlig att tyda? Då väljer du denna behandling i vår bokning. Det ger oss tid för en grundläggande konsultation där vi hjälper dig att hitta rätt stil till ditt hår, eventuellt en mer grundlig styling där vi ger dig tips och råd för att uppnå fantastiska resultat hemma. Om du är ny kund på salongen så rekommenderar vi att boka denna behandling!</p>
+      </div>
+      <strong class="treatment-price">Pris 800 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div>
+        <h3>Klippning - Lyx</h3>
+        <span class="treatment-meta">75 min</span>
+        <p class="treatment-description collapsed">En lite lyxigare klippning helt enkelt. Denna passar perfekt om du vill unna dig själv eller någon du tycker om! Vid bokning av en lyx-klippning ingår en grundläggande konsultation av håret och dina önskemål. En hårtvätt med massage där din frisör även väljer ut en hårkur som passar din hårtyp. Efter klippningen stylas ditt hår med verktyg och produkter som vi rekommenderar för ditt hår.</p>
+      </div>
+      <strong class="treatment-price">Pris 800 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div>
+        <h3>Klippning - Barn (upp till 13 år)</h3>
+        <span class="treatment-meta">45 min</span>
+        <p class="treatment-description collapsed">Behöver ditt barn en klipptid? Hos oss har vi barnklippningar upp till 13 år. Det ingår ej tvätt, så se till att tvätta håret hemma innan ni besöker oss.</p>
+      </div>
+      <strong class="treatment-price">Pris 485 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div>
+        <h3>Klippning - Lugg</h3>
+        <span class="treatment-meta">15 min</span>
+        <p class="treatment-description collapsed">Denna behandling bokar du med en befintlig lugg. Tvätt ingår ej, så gör detta hemma för bästa möjliga resultat.</p>
+      </div>
+      <strong class="treatment-price">Pris 230 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div>
+        <h3>Klippning - Korthårsklippning (delvis med maskin)</h3>
+        <span class="treatment-meta">45 min</span>
+      </div>
+      <strong class="treatment-price">Pris 580 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div>
+        <h3>Speedcut</h3>
+        <span class="treatment-meta">30 min</span>
+        <p class="treatment-description collapsed">Denna behandling bokar du som vill finslipa dina befintliga frisyr, endast på sidorna.</p>
+      </div>
+      <strong class="treatment-price">Pris 375 kr</strong>
+    </article>
+  </section>
+
+  <section class="category" data-category="folieslingor">
+    <h2>Folieslingor <span class="category-count"></span></h2>
+
+    <article class="treatment">
+      <div>
+        <h3>Folieslingor - Lilla paketet</h3>
+        <span class="treatment-meta">120 min</span>
+        <p class="treatment-description collapsed">Lilla paketet är för dig som bara vill ha några få slingor i benan eller kanske någon fram i luggen för att fräscha upp ditt hår.</p>
+      </div>
+      <strong class="treatment-price">Pris 1 990 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div>
+        <h3>Klipp & Sling - Lilla paketet</h3>
+        <span class="treatment-meta">165 min</span>
+        <p class="treatment-description collapsed">Lilla paketet inkl klippning-standard.</p>
+      </div>
+      <strong class="treatment-price">Pris 2 490 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div>
+        <h3>Folieslingor - Mellanpaketet</h3>
+        <span class="treatment-meta">150 min</span>
+        <p class="treatment-description collapsed">Mellanpaketet passar perfekt för dig som vill ha ett naturligt resultat med lite skiftningar.</p>
+      </div>
+      <strong class="treatment-price">Pris 2 620 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div>
+        <h3>Klipp & Sling - Mellanpaketet</h3>
+        <span class="treatment-meta">195 min</span>
+        <p class="treatment-description collapsed">Mellanpaketet inkl klippning-standard.</p>
+      </div>
+      <strong class="treatment-price">Pris 3 270 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div>
+        <h3>Folieslingor - Stora paketet</h3>
+        <span class="treatment-meta">210 min</span>
+        <p class="treatment-description collapsed">Stora paketet är för dig som vill bli riktigt ljus. Denna behandling innebär täta, många paket.</p>
+      </div>
+      <strong class="treatment-price">Pris 2 950 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div>
+        <h3>Folieslingor - Mellan paketet (Trainee)</h3>
+        <span class="treatment-meta">180 min</span>
+        <p class="treatment-description collapsed">Mellanpaketet passar perfekt för dig som vill ha ett naturligt resultat med lite skiftningar och vill färga från botten till toppen, alltså hela håret!</p>
+      </div>
+      <strong class="treatment-price">Från 1 900 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div>
+        <h3>Klipp & Sling - Stora paketet</h3>
+        <span class="treatment-meta">240 min</span>
+        <p class="treatment-description collapsed">Stora paketet inkl klippning-standard.</p>
+      </div>
+      <strong class="treatment-price">Pris 3 600 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div>
+        <h3>Balayage</h3>
+        <span class="treatment-meta">230 min</span>
+        <p class="treatment-description collapsed">Frihandsslingor, botten och nyansering.</p>
+      </div>
+      <strong class="treatment-price">Pris 3 200 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div>
+        <h3>Slingor hätta - Kort hår</h3>
+        <span class="treatment-meta">45 min</span>
+      </div>
+      <strong class="treatment-price">Från 1 700 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div>
+        <h3>Folieslingor - Stora paketet (Trainee)</h3>
+        <span class="treatment-meta">240 min</span>
+        <p class="treatment-description collapsed">Stora paketet är för dig som vill bli riktigt ljus. Denna behandling innebär täta, många paket.</p>
+      </div>
+      <strong class="treatment-price">Från 2 200 kr</strong>
+    </article>
+  </section>
+
+  <section class="category" data-category="fargning">
+    <h2>Färgning <span class="category-count"></span></h2>
+
+    <article class="treatment">
+      <div><h3>Färg (kort hår)</h3><span class="treatment-meta">110 min</span><p class="treatment-description collapsed">Denna behandling är för dig som vill färga från botten till toppen, alltså hela håret! Vi skräddarsyr alltid färgerna efter utgångsläge och dina önskemål.</p></div>
+      <strong class="treatment-price">Pris 1 390 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div><h3>Klipp & Färg - Kort hår</h3><span class="treatment-meta">150 min</span><p class="treatment-description collapsed">Färg kort hår, inkl klippning-standard.</p></div>
+      <strong class="treatment-price">Pris 2 040 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div><h3>Färg (mellan)</h3><span class="treatment-meta">120 min</span><p class="treatment-description collapsed">Vi skräddarsyr alltid färgerna efter utgångsläge och dina önskemål.</p></div>
+      <strong class="treatment-price">Från 1 900 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div><h3>Klipp & Färg - Mellan</h3><span class="treatment-meta">195 min</span><p class="treatment-description collapsed">Färg mellan inkl klippning-standard.</p></div>
+      <strong class="treatment-price">Pris 2 550 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div><h3>Färg (långt hår)</h3><span class="treatment-meta">140 min</span><p class="treatment-description collapsed">Vi skräddarsyr alltid färgerna efter utgångsläge och dina önskemål.</p></div>
+      <strong class="treatment-price">Från 2 490 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div><h3>Klipp & Färg - Långt hår</h3><span class="treatment-meta">225 min</span><p class="treatment-description collapsed">Färg långt hår inkl klippning-standard.</p></div>
+      <strong class="treatment-price">Pris 3 140 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div><h3>Färg Quickfix</h3><span class="treatment-meta">120 min</span><p class="treatment-description collapsed">För dig som vill ha en snabbare och billigare uppfräschning av håret mellan dina större behandlingar. Max 8 slingpaket + nyansering. En lättare toning. Utväxtfärgning + nyansering.</p></div>
+      <strong class="treatment-price">Pris 1 749 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div><h3>Utväxtfärgning (Ej slingor) Endast färg i utväxt</h3><span class="treatment-meta">90 min</span><p class="treatment-description collapsed">Passar dig som vill fylla på utväxten med ny färg, max 4 cm utväxt.</p></div>
+      <strong class="treatment-price">Pris 1 330 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div><h3>Quickfix & Klipp</h3><span class="treatment-meta">150 min</span><p class="treatment-description collapsed">En snabb ändrande färgbehandling för dig som vill fräscha upp mellan de längre behandlingarna, välj mellan utväxtfärg/nyansering eller några slingpaket. I denna behandling ingår även en lättare klippning.</p></div>
+      <strong class="treatment-price">Pris 1 990 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div><h3>Konsultation</h3><span class="treatment-meta">15 min</span></div>
+      <strong class="treatment-price">Ring oss</strong>
+    </article>
+
+    <article class="treatment">
+      <div><h3>Färg - Herr / Goldwell Men Reshade</h3><span class="treatment-meta">30 min</span><p class="treatment-description collapsed">Passar oftast män som vill tona ner sina gråa hårstrån utan att det blir för uppenbart. Tidsåtgången är enbart 5 minuter.</p></div>
+      <strong class="treatment-price">Från 540 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div><h3>Färg - Mellan (Trainee)</h3><span class="treatment-meta">160 min</span><p class="treatment-description collapsed">Vi skräddarsyr alltid färgerna efter utgångsläge och dina önskemål. Denna behandling är för dig som vill färga från botten till toppen, alltså hela håret!</p></div>
+      <strong class="treatment-price">Från 1 320 kr</strong>
+    </article>
+
+    <article class="treatment">
+      <div><h3>Utväxtfärgning - Trainee</h3><span class="treatment-meta">120 min</span><p class="treatment-description collapsed">Utväxtfärg är för dig som fått en utväxt på max 4 cm. Denna behandling gäller endast färg, inte blekning. Vid utväxt med blekning, boka en utav foliebehandlingarna istället!</p></div>
+      <strong class="treatment-price">Från 920 kr</strong>
+    </article>
+  </section>
+
+  <section class="category" data-category="bryn-fransar">
+    <h2>Ögonbryn & Fransar <span class="category-count"></span></h2>
+
+    <article class="treatment"><div><h3>BrynPlock</h3><span class="treatment-meta">15 min</span><p>Vi plockar dina bryn.</p></div><strong>Pris 220 kr</strong></article>
+    <article class="treatment"><div><h3>BrynFärg</h3><span class="treatment-meta">15 min</span><p>Vi färgar dina bryn.</p></div><strong>Pris 250 kr</strong></article>
+    <article class="treatment"><div><h3>Bryn-Kombo</h3><span class="treatment-meta">30 min</span><p>Vi plockar och färgar dina bryn.</p></div><strong>Pris 425 kr</strong></article>
+    <article class="treatment"><div><h3>FransFärg</h3><span class="treatment-meta">15 min</span><p>Vi färgar dina fransar.</p></div><strong>Pris 250 kr</strong></article>
+    <article class="treatment"><div><h3>Bryn & Frans-Kombo</h3><span class="treatment-meta">30 min</span><p>Vi färgar dina bryn och fransar, samt plockar brynen.</p></div><strong>Pris 450 kr</strong></article>
+  </section>
+
+  <section class="category" data-category="styling-kurer">
+    <h2>Styling & Kurer <span class="category-count"></span></h2>
+
+    <article class="treatment"><div><h3>Tvätt & Fön</h3><span class="treatment-meta">30 min</span><p>Denna behandling bokar du som behöver en tvätt med en lätt styling.</p></div><strong>Pris 425 kr</strong></article>
+    <article class="treatment"><div><h3>Styling</h3><span class="treatment-meta">30 min</span><p class="treatment-description collapsed">Vår stylingtjänst är perfekt för dig som är på språng och snabbt vill få håret fixat! Kom till salongen så hjälper vi dig med rätt produkter och verktyg för att uppfylla dina önskemål. Vill du till exempel ha hjälp med att locka håret eller göra inbakade flätor? Då ska du boka denna behandling!</p></div><strong>Pris 425 kr</strong></article>
+    <article class="treatment"><div><h3>Rensning</h3><span class="treatment-meta">30 min</span><p>En perfekt behandling för dig som har lättare påverkan på håret av metaller, silverschampo m.m.</p></div><strong>Från 375 kr</strong></article>
+  </section>
+
+  <section class="category" data-category="permanent">
+    <h2>Permanent <span class="category-count"></span></h2>
+
+    <article class="treatment"><div><h3>Permanent (hjässa)</h3><span class="treatment-meta">135 min</span><p>Permanent behandling på hjässan = övre delen på ditt huvud där luciakronan fastnar slutar hjässan. Inkl klippning.</p></div><strong>Från 1 600 kr</strong></article>
+    <article class="treatment"><div><h3>Permanent (kort hår)</h3><span class="treatment-meta">180 min</span><p class="treatment-description collapsed">Permanent behandling inklusive klippning, maximal hårlängd till axlarna. Välkommen in och njut av att bli lockig eller få mer volym med hjälp av spolar och en duktig frisör.</p></div><strong>Pris 1 900 kr</strong></article>
+    <article class="treatment"><div><h3>Permanent (mellan/långt hår)</h3><span class="treatment-meta">220 min</span><p>Permanentbehandling inklusive klippning, hårets längd är nedanför axlarna. Välkommen in och njut.</p></div><strong>Pris 2 500 kr</strong></article>
+  </section>
+
+  <section class="category" data-category="trainee">
+    <h2>Trainee-Frisörer <span class="category-count"></span></h2>
+
+    <article class="treatment"><div><h3>Klippning - Ny frisyr (Trainee)</h3><span class="treatment-meta">90 min</span><p class="treatment-description collapsed">Vill du göra något helt nytt med ditt hår? Behöver du tips och råd när det gäller en ny frisyr eller styling av ditt hår? Eller var det kanske alldeles för länge sedan du besökte salongen så att frisyren är omöjlig att tyda? Då väljer du denna behandling i vår bokning. Det ger oss tid för en grundläggande konsultation där vi hjälper dig att hitta rätt stil till ditt hår, eventuellt en mer grundlig styling där vi ger dig tips och råd för att uppnå fantastiska resultat hemma. Om du är ny kund på salongen så rekommenderar vi att boka denna behandling!</p></div><strong>Pris 590 kr</strong></article>
+
+    <article class="treatment"><div><h3>Klippning - Barn (Trainee)</h3><span class="treatment-meta">45 min</span><p>Behöver ditt barn en klipptid? Hos oss har vi barnklippningar upp till 13 år. Det ingår ej tvätt, så se till att tvätta håret hemma innan ni besöker oss.</p></div><strong>Pris 350 kr</strong></article>
+
+    <article class="treatment"><div><h3>Folieslingor - Lilla paketet (Trainee)</h3><span class="treatment-meta">150 min</span><p>Lilla paketet är för dig som bara vill ha några få slingor i benan eller kanske någon fram i luggen för att fräscha upp ditt hår.</p></div><strong>Från 1 450 kr</strong></article>
+
+    <article class="treatment"><div><h3>Klipp & Sling - Lilla paketet (Trainee)</h3><span class="treatment-meta">210 min</span><p>Lilla paketet inkl klippning-standard.</p></div><strong>Pris 1 895 kr</strong></article>
+
+    <article class="treatment"><div><h3>Klipp & Sling - Mellanpaketet (Trainee)</h3><span class="treatment-meta">240 min</span><p>Mellanpaketet inkl klippning-standard.</p></div><strong>Pris 2 295 kr</strong></article>
+
+    <article class="treatment"><div><h3>Klipp & Sling - Stora paketet (Trainee)</h3><span class="treatment-meta">300 min</span><p>Stora paketet inkl klippning-standard (Trainee).</p></div><strong>Pris 2 595 kr</strong></article>
+
+    <article class="treatment"><div><h3>Färg - Kort hår (Trainee)</h3><span class="treatment-meta">135 min</span><p>Vi skräddarsyr alltid färgerna efter utgångsläge och dina önskemål. Denna behandling är för dig som vill färga från botten till toppen, alltså hela håret!</p></div><strong>Från 1 200 kr</strong></article>
+
+    <article class="treatment"><div><h3>Klipp & Färg - Kort hår (Trainee)</h3><span class="treatment-meta">195 min</span><p>Färg kort hår inkl klippning-standard (Trainee).</p></div><strong>Pris 1 395 kr</strong></article>
+
+    <article class="treatment"><div><h3>Klipp & Färg - Mellan (Trainee)</h3><span class="treatment-meta">220 min</span><p>Färg mellan inkl klippning-standard (Trainee).</p></div><strong>Pris 1 695 kr</strong></article>
+
+    <article class="treatment"><div><h3>Färg - Långt hår (Trainee)</h3><span class="treatment-meta">180 min</span><p>Vi skräddarsyr alltid färgerna efter utgångsläge och dina önskemål. Denna behandling är för dig som vill färga från botten till toppen, alltså hela håret!</p></div><strong>Från 1 600 kr</strong></article>
+
+    <article class="treatment"><div><h3>Klipp & Färg - Långt hår (Trainee)</h3><span class="treatment-meta">240 min</span><p>Färg långt hår inkl klippning-standard (Trainee).</p></div><strong>Pris 2 095 kr</strong></article>
+  </section>
+
+  <section class="category" data-category="kurbehandlingar">
+    <h2>Kurbehandlingar <span class="category-count"></span></h2>
+
+    <article class="treatment">
+      <div>
+        <h3>Kurbehandling</h3>
+        <span class="treatment-meta">45 min</span>
+        <p class="treatment-description collapsed">Kurbehandlingen bokar du som behöver bygga upp eller återfukta ditt hår, du får även en härlig hårbottenmassage!</p>
+      </div>
+      <strong>Pris 630 kr</strong>
+    </article>
+  </section>
+
+  <section class="category" data-category="avfarg">
+    <h2>Avfärg <span class="category-count"></span></h2>
+
+    <article class="treatment">
+      <div>
+        <h3>Avfärgning</h3>
+        <span class="treatment-meta">120 min</span>
+      </div>
+      <strong>Pris 2 600 kr</strong>
+    </article>
+  </section>
+
+</main>
+
+<a class="sticky-book" href="https://www.bokadirekt.se/places/salong-boman-44894" target="_blank" rel="noopener">
+  Boka tid
+</a>
+
+<footer>
+  <p>Värmlandsvägen 2, Karlskoga | 0586-310 27</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
