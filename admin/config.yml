@@ -1,6 +1,7 @@
 backend:
-  name: github
-  branch: main
+  name: local_backend
+
+local_backend: true
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
