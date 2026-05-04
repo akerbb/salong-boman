@@ -1,0 +1,40 @@
+backend:
+  name: github
+  repo: akerbb/salong-boman
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "site"
+    label: "Sidinställningar"
+    files:
+      - file: "content/site.json"
+        label: "Allmän info"
+        name: "site"
+        fields:
+          - { label: "Företagsnamn", name: "companyName", widget: "string" }
+          - { label: "Telefon", name: "phone", widget: "string" }
+          - { label: "E-post", name: "email", widget: "string" }
+          - { label: "Adress", name: "address", widget: "string" }
+          - { label: "Bokningslänk", name: "bookingUrl", widget: "string" }
+          - { label: "Hero rubrik", name: "heroTitle", widget: "string" }
+          - { label: "Hero text", name: "heroText", widget: "text" }
+
+  - name: "treatments"
+    label: "Behandlingar"
+    files:
+      - file: "content/treatments.json"
+        label: "Behandlingar"
+        name: "treatments"
+        fields:
+          - label: "Lista"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Kategori", name: "category", widget: "string" }
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Tid", name: "time", widget: "string" }
+              - { label: "Beskrivning", name: "description", widget: "text", required: false }
+              - { label: "Pris", name: "price", widget: "string" }
