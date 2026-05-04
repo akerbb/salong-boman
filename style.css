@@ -447,9 +447,10 @@ footer {
   }
 
   .nav a:hover,
-  .nav a.active {
-    background: rgba(225, 196, 122, 0.1);
-  }
+.nav a.active {
+  color: var(--cream);
+  background: transparent;
+}
 
   .hero {
     padding: 55px 7%;
