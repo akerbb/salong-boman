@@ -4,8 +4,386 @@
       "category": "Klippning",
       "title": "Klippning - Standard",
       "time": "45 min",
-      "description": "En klippning av befintlig frisyr.",
+      "description": "Obs vid bokning av tjockt hår, boka klippning-ny frisyr. En klippning av befintlig frisyr. Här ingår det en enklare konsultation av håret och dina önskemål, hårtvätt samt enklare typ av styling.",
       "price": "Pris 650 kr"
+    },
+    {
+      "category": "Klippning",
+      "title": "Klippning - Standard (Trainee)",
+      "time": "60 min",
+      "description": "En klippning av befintlig frisyr. Här ingår det en enklare konsultation av håret och dina önskemål, hårtvätt samt enklare typ av styling.",
+      "price": "Pris 395 kr"
+    },
+    {
+      "category": "Klippning",
+      "title": "Klippning - Ny frisyr / Mycket hår",
+      "time": "75 min",
+      "description": "Obs vid bokning av tjockt hår, boka denna behandling. Vill du göra något helt nytt med ditt hår? Behöver du tips och råd när det gäller en ny frisyr eller styling av ditt hår? Eller var det kanske alldeles för länge sedan du besökte salongen så att frisyren är omöjlig att tyda? Då väljer du denna behandling i vår bokning. Det ger oss tid för en grundläggande konsultation där vi hjälper dig att hitta rätt stil till ditt hår, eventuellt en mer grundlig styling där vi ger dig tips och råd för att uppnå fantastiska resultat hemma. Om du är ny kund på salongen så rekommenderar vi att boka denna behandling!",
+      "price": "Pris 800 kr"
+    },
+    {
+      "category": "Klippning",
+      "title": "Klippning - Lyx",
+      "time": "75 min",
+      "description": "En lite lyxigare klippning helt enkelt. Denna passar perfekt om du vill unna dig själv eller någon du tycker om! Vid bokning av en lyx-klippning ingår en grundläggande konsultation av håret och dina önskemål. En hårtvätt med massage där din frisör även väljer ut en hårkur som passar din hårtyp. Efter klippningen stylas ditt hår med verktyg och produkter som vi rekommenderar för ditt hår.",
+      "price": "Pris 800 kr"
+    },
+    {
+      "category": "Klippning",
+      "title": "Klippning - Barn (upp till 13 år)",
+      "time": "45 min",
+      "description": "Behöver ditt barn en klipptid? Hos oss har vi barnklippningar upp till 13 år. Det ingår ej tvätt, så se till att tvätta håret hemma innan ni besöker oss.",
+      "price": "Pris 485 kr"
+    },
+    {
+      "category": "Klippning",
+      "title": "Klippning - Lugg",
+      "time": "15 min",
+      "description": "Denna behandling bokar du med en befintlig lugg. Tvätt ingår ej, så gör detta hemma för bästa möjliga resultat.",
+      "price": "Pris 230 kr"
+    },
+    {
+      "category": "Klippning",
+      "title": "Klippning - Korthårsklippning (delvis med maskin)",
+      "time": "45 min",
+      "description": "",
+      "price": "Pris 580 kr"
+    },
+    {
+      "category": "Klippning",
+      "title": "Speedcut",
+      "time": "30 min",
+      "description": "Denna behandling bokar du som vill finslipa dina befintliga frisyr, endast på sidorna.",
+      "price": "Pris 375 kr"
+    },
+    {
+      "category": "Folieslingor",
+      "title": "Folieslingor - Lilla paketet",
+      "time": "120 min",
+      "description": "Lilla paketet är för dig som bara vill ha några få slingor i benan eller kanske någon fram i luggen för att fräscha upp ditt hår.",
+      "price": "Pris 1 990 kr"
+    },
+    {
+      "category": "Folieslingor",
+      "title": "Klipp & Sling - Lilla paketet",
+      "time": "165 min",
+      "description": "Lilla paketet inkl klippning-standard.",
+      "price": "Pris 2 490 kr"
+    },
+    {
+      "category": "Folieslingor",
+      "title": "Folieslingor - Mellanpaketet",
+      "time": "150 min",
+      "description": "Mellanpaketet passar perfekt för dig som vill ha ett naturligt resultat med lite skiftningar.",
+      "price": "Pris 2 620 kr"
+    },
+    {
+      "category": "Folieslingor",
+      "title": "Klipp & Sling - Mellanpaketet",
+      "time": "195 min",
+      "description": "Mellanpaketet inkl klippning-standard.",
+      "price": "Pris 3 270 kr"
+    },
+    {
+      "category": "Folieslingor",
+      "title": "Folieslingor - Stora paketet",
+      "time": "210 min",
+      "description": "Stora paketet är för dig som vill bli riktigt ljus. Denna behandling innebär täta, många paket.",
+      "price": "Pris 2 950 kr"
+    },
+    {
+      "category": "Folieslingor",
+      "title": "Folieslingor - Mellan paketet (Trainee)",
+      "time": "180 min",
+      "description": "Mellanpaketet passar perfekt för dig som vill ha ett naturligt resultat med lite skiftningar och vill färga från botten till toppen, alltså hela håret!",
+      "price": "Från 1 900 kr"
+    },
+    {
+      "category": "Folieslingor",
+      "title": "Klipp & Sling - Stora paketet",
+      "time": "240 min",
+      "description": "Stora paketet inkl klippning-standard.",
+      "price": "Pris 3 600 kr"
+    },
+    {
+      "category": "Folieslingor",
+      "title": "Balayage",
+      "time": "230 min",
+      "description": "Frihandsslingor, botten och nyansering.",
+      "price": "Pris 3 200 kr"
+    },
+    {
+      "category": "Folieslingor",
+      "title": "Slingor hätta - Kort hår",
+      "time": "45 min",
+      "description": "",
+      "price": "Från 1 700 kr"
+    },
+    {
+      "category": "Folieslingor",
+      "title": "Folieslingor - Stora paketet (Trainee)",
+      "time": "240 min",
+      "description": "Stora paketet är för dig som vill bli riktigt ljus. Denna behandling innebär täta, många paket.",
+      "price": "Från 2 200 kr"
+    },
+    {
+      "category": "Färgning",
+      "title": "Färg (kort hår)",
+      "time": "110 min",
+      "description": "Denna behandling är för dig som vill färga från botten till toppen, alltså hela håret! Vi skräddarsyr alltid färgerna efter utgångsläge och dina önskemål.",
+      "price": "Pris 1 390 kr"
+    },
+    {
+      "category": "Färgning",
+      "title": "Klipp & Färg - Kort hår",
+      "time": "150 min",
+      "description": "Färg kort hår, inkl klippning-standard.",
+      "price": "Pris 2 040 kr"
+    },
+    {
+      "category": "Färgning",
+      "title": "Färg (mellan)",
+      "time": "120 min",
+      "description": "Vi skräddarsyr alltid färgerna efter utgångsläge och dina önskemål.",
+      "price": "Från 1 900 kr"
+    },
+    {
+      "category": "Färgning",
+      "title": "Klipp & Färg - Mellan",
+      "time": "195 min",
+      "description": "Färg mellan inkl klippning-standard.",
+      "price": "Pris 2 550 kr"
+    },
+    {
+      "category": "Färgning",
+      "title": "Färg (långt hår)",
+      "time": "140 min",
+      "description": "Vi skräddarsyr alltid färgerna efter utgångsläge och dina önskemål.",
+      "price": "Från 2 490 kr"
+    },
+    {
+      "category": "Färgning",
+      "title": "Klipp & Färg - Långt hår",
+      "time": "225 min",
+      "description": "Färg långt hår inkl klippning-standard.",
+      "price": "Pris 3 140 kr"
+    },
+    {
+      "category": "Färgning",
+      "title": "Färg Quickfix",
+      "time": "120 min",
+      "description": "För dig som vill ha en snabbare och billigare uppfräschning av håret mellan dina större behandlingar. Max 8 slingpaket + nyansering. En lättare toning. Utväxtfärgning + nyansering.",
+      "price": "Pris 1 749 kr"
+    },
+    {
+      "category": "Färgning",
+      "title": "Utväxtfärgning (Ej slingor) Endast färg i utväxt",
+      "time": "90 min",
+      "description": "Passar dig som vill fylla på utväxten med ny färg, max 4 cm utväxt.",
+      "price": "Pris 1 330 kr"
+    },
+    {
+      "category": "Färgning",
+      "title": "Quickfix & Klipp",
+      "time": "150 min",
+      "description": "En snabb ändrande färgbehandling för dig som vill fräscha upp mellan de längre behandlingarna, välj mellan utväxtfärg/nyansering eller några slingpaket. I denna behandling ingår även en lättare klippning.",
+      "price": "Pris 1 990 kr"
+    },
+    {
+      "category": "Färgning",
+      "title": "Konsultation",
+      "time": "15 min",
+      "description": "",
+      "price": "Ring oss"
+    },
+    {
+      "category": "Färgning",
+      "title": "Färg - Herr / Goldwell Men Reshade",
+      "time": "30 min",
+      "description": "Passar oftast män som vill tona ner sina gråa hårstrån utan att det blir för uppenbart. Tidsåtgången är enbart 5 minuter.",
+      "price": "Från 540 kr"
+    },
+    {
+      "category": "Färgning",
+      "title": "Färg - Mellan (Trainee)",
+      "time": "160 min",
+      "description": "Vi skräddarsyr alltid färgerna efter utgångsläge och dina önskemål. Denna behandling är för dig som vill färga från botten till toppen, alltså hela håret!",
+      "price": "Från 1 320 kr"
+    },
+    {
+      "category": "Färgning",
+      "title": "Utväxtfärgning - Trainee",
+      "time": "120 min",
+      "description": "Utväxtfärg är för dig som fått en utväxt på max 4 cm. Denna behandling gäller endast färg, inte blekning. Vid utväxt med blekning, boka en utav foliebehandlingarna istället!",
+      "price": "Från 920 kr"
+    },
+    {
+      "category": "Ögonbryn & Fransar",
+      "title": "BrynPlock",
+      "time": "15 min",
+      "description": "Vi plockar dina bryn.",
+      "price": "Pris 220 kr"
+    },
+    {
+      "category": "Ögonbryn & Fransar",
+      "title": "BrynFärg",
+      "time": "15 min",
+      "description": "Vi färgar dina bryn.",
+      "price": "Pris 250 kr"
+    },
+    {
+      "category": "Ögonbryn & Fransar",
+      "title": "Bryn-Kombo",
+      "time": "30 min",
+      "description": "Vi plockar och färgar dina bryn.",
+      "price": "Pris 425 kr"
+    },
+    {
+      "category": "Ögonbryn & Fransar",
+      "title": "FransFärg",
+      "time": "15 min",
+      "description": "Vi färgar dina fransar.",
+      "price": "Pris 250 kr"
+    },
+    {
+      "category": "Ögonbryn & Fransar",
+      "title": "Bryn & Frans-Kombo",
+      "time": "30 min",
+      "description": "Vi färgar dina bryn och fransar, samt plockar brynen.",
+      "price": "Pris 450 kr"
+    },
+    {
+      "category": "Styling & Kurer",
+      "title": "Tvätt & Fön",
+      "time": "30 min",
+      "description": "Denna behandling bokar du som behöver en tvätt med en lätt styling.",
+      "price": "Pris 425 kr"
+    },
+    {
+      "category": "Styling & Kurer",
+      "title": "Styling",
+      "time": "30 min",
+      "description": "Vår stylingtjänst är perfekt för dig som är på språng och snabbt vill få håret fixat! Kom till salongen så hjälper vi dig med rätt produkter och verktyg för att uppfylla dina önskemål. Vill du till exempel ha hjälp med att locka håret eller göra inbakade flätor? Då ska du boka denna behandling!",
+      "price": "Pris 425 kr"
+    },
+    {
+      "category": "Styling & Kurer",
+      "title": "Rensning",
+      "time": "30 min",
+      "description": "En perfekt behandling för dig som har lättare påverkan på håret av metaller, silverschampo m.m.",
+      "price": "Från 375 kr"
+    },
+    {
+      "category": "Permanent",
+      "title": "Permanent (hjässa)",
+      "time": "135 min",
+      "description": "Permanent behandling på hjässan = övre delen på ditt huvud där luciakronan fastnar slutar hjässan. Inkl klippning.",
+      "price": "Från 1 600 kr"
+    },
+    {
+      "category": "Permanent",
+      "title": "Permanent (kort hår)",
+      "time": "180 min",
+      "description": "Permanent behandling inklusive klippning, maximal hårlängd till axlarna. Välkommen in och njut av att bli lockig eller få mer volym med hjälp av spolar och en duktig frisör.",
+      "price": "Pris 1 900 kr"
+    },
+    {
+      "category": "Permanent",
+      "title": "Permanent (mellan/långt hår)",
+      "time": "220 min",
+      "description": "Permanentbehandling inklusive klippning, hårets längd är nedanför axlarna. Välkommen in och njut.",
+      "price": "Pris 2 500 kr"
+    },
+    {
+      "category": "Trainee-Frisörer",
+      "title": "Klippning - Ny frisyr (Trainee)",
+      "time": "90 min",
+      "description": "Vill du göra något helt nytt med ditt hår? Behöver du tips och råd när det gäller en ny frisyr eller styling av ditt hår? Eller var det kanske alldeles för länge sedan du besökte salongen så att frisyren är omöjlig att tyda? Då väljer du denna behandling i vår bokning. Det ger oss tid för en grundläggande konsultation där vi hjälper dig att hitta rätt stil till ditt hår, eventuellt en mer grundlig styling där vi ger dig tips och råd för att uppnå fantastiska resultat hemma. Om du är ny kund på salongen så rekommenderar vi att boka denna behandling!",
+      "price": "Pris 590 kr"
+    },
+    {
+      "category": "Trainee-Frisörer",
+      "title": "Klippning - Barn (Trainee)",
+      "time": "45 min",
+      "description": "Behöver ditt barn en klipptid? Hos oss har vi barnklippningar upp till 13 år. Det ingår ej tvätt, så se till att tvätta håret hemma innan ni besöker oss.",
+      "price": "Pris 350 kr"
+    },
+    {
+      "category": "Trainee-Frisörer",
+      "title": "Folieslingor - Lilla paketet (Trainee)",
+      "time": "150 min",
+      "description": "Lilla paketet är för dig som bara vill ha några få slingor i benan eller kanske någon fram i luggen för att fräscha upp ditt hår.",
+      "price": "Från 1 450 kr"
+    },
+    {
+      "category": "Trainee-Frisörer",
+      "title": "Klipp & Sling - Lilla paketet (Trainee)",
+      "time": "210 min",
+      "description": "Lilla paketet inkl klippning-standard.",
+      "price": "Pris 1 895 kr"
+    },
+    {
+      "category": "Trainee-Frisörer",
+      "title": "Klipp & Sling - Mellanpaketet (Trainee)",
+      "time": "240 min",
+      "description": "Mellanpaketet inkl klippning-standard.",
+      "price": "Pris 2 295 kr"
+    },
+    {
+      "category": "Trainee-Frisörer",
+      "title": "Klipp & Sling - Stora paketet (Trainee)",
+      "time": "300 min",
+      "description": "Stora paketet inkl klippning-standard (Trainee).",
+      "price": "Pris 2 595 kr"
+    },
+    {
+      "category": "Trainee-Frisörer",
+      "title": "Färg - Kort hår (Trainee)",
+      "time": "135 min",
+      "description": "Vi skräddarsyr alltid färgerna efter utgångsläge och dina önskemål. Denna behandling är för dig som vill färga från botten till toppen, alltså hela håret!",
+      "price": "Från 1 200 kr"
+    },
+    {
+      "category": "Trainee-Frisörer",
+      "title": "Klipp & Färg - Kort hår (Trainee)",
+      "time": "195 min",
+      "description": "Färg kort hår inkl klippning-standard (Trainee).",
+      "price": "Pris 1 395 kr"
+    },
+    {
+      "category": "Trainee-Frisörer",
+      "title": "Klipp & Färg - Mellan (Trainee)",
+      "time": "220 min",
+      "description": "Färg mellan inkl klippning-standard (Trainee).",
+      "price": "Pris 1 695 kr"
+    },
+    {
+      "category": "Trainee-Frisörer",
+      "title": "Färg - Långt hår (Trainee)",
+      "time": "180 min",
+      "description": "Vi skräddarsyr alltid färgerna efter utgångsläge och dina önskemål. Denna behandling är för dig som vill färga från botten till toppen, alltså hela håret!",
+      "price": "Från 1 600 kr"
+    },
+    {
+      "category": "Trainee-Frisörer",
+      "title": "Klipp & Färg - Långt hår (Trainee)",
+      "time": "240 min",
+      "description": "Färg långt hår inkl klippning-standard (Trainee).",
+      "price": "Pris 2 095 kr"
+    },
+    {
+      "category": "Kurbehandlingar",
+      "title": "Kurbehandling",
+      "time": "45 min",
+      "description": "Kurbehandlingen bokar du som behöver bygga upp eller återfukta ditt hår, du får även en härlig hårbottenmassage!",
+      "price": "Pris 630 kr"
+    },
+    {
+      "category": "Avfärg",
+      "title": "Avfärgning",
+      "time": "120 min",
+      "description": "",
+      "price": "Pris 2 600 kr"
     }
   ]
 }

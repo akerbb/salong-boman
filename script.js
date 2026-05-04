@@ -107,7 +107,12 @@ async function loadTreatments() {
 
 function groupByCategory(items) {
   return items.reduce((groups, item) => {
-    const category = item.category || "Övrigt";
+    let category = item.category || "Övrigt";
+
+    // 🔥 Flytta ALLT trainee till rätt kategori
+    if (item.title && item.title.toLowerCase().includes("trainee")) {
+      category = "Trainee-Frisörer";
+    }
 
     if (!groups[category]) {
       groups[category] = [];
