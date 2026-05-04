@@ -31,6 +31,7 @@ collections:
         fields:
           - label: "Lista"
             name: "items"
+            summary: "{{fields.category}}: {{fields.title}}: {{fields.price}}"
             widget: "list"
             fields:
               - { label: "Kategori", name: "category", widget: "string" }
@@ -38,3 +39,5 @@ collections:
               - { label: "Tid", name: "time", widget: "string" }
               - { label: "Beskrivning", name: "description", widget: "text", required: false }
               - { label: "Pris", name: "price", widget: "string" }
+editor:
+  preview: false
