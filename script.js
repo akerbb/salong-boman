@@ -36,8 +36,17 @@ categories.forEach((category, index) => {
   }
 
   heading.addEventListener("click", () => {
-    category.classList.toggle("collapsed");
-    category.classList.toggle("open");
+    const isOpen = category.classList.contains("open");
+
+    categories.forEach((item) => {
+      item.classList.add("collapsed");
+      item.classList.remove("open");
+    });
+
+    if (!isOpen) {
+      category.classList.remove("collapsed");
+      category.classList.add("open");
+    }
   });
 });
 
@@ -78,3 +87,21 @@ document.querySelectorAll(".treatment-description").forEach((text) => {
     text.after(button);
   }
 });
+
+const stickyBook = document.querySelector(".sticky-book");
+const scrollTop = document.querySelector(".scroll-top");
+
+function toggleFloatingButtons() {
+  const show = window.scrollY > 350;
+
+  if (stickyBook) {
+    stickyBook.classList.toggle("visible", show);
+  }
+
+  if (scrollTop) {
+    scrollTop.classList.toggle("visible", show);
+  }
+}
+
+window.addEventListener("scroll", toggleFloatingButtons);
+toggleFloatingButtons();
