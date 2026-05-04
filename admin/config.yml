@@ -1,6 +1,5 @@
 backend:
   name: github
-  repo: akerbb/salong-boman
   branch: main
 
 media_folder: "images/uploads"
